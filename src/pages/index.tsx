@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout title={tagline} description={description}>
       <main>
-        {/* 这是首页最第一页，配置在_components/Hero中 */}
+        {/* 这是首页第一页，配置在_components/Hero中 */}
         <Hero />
         <div className="container-wrapper">
           <BlogSection />
